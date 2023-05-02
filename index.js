@@ -48,6 +48,8 @@ const start = () => {
          return compliments(chatId)
       }
 
+
+      //Эта хуйня не работает
       const data = msg.data;
       const ChatId = msg.message.chat.id;
       if (genderData === gender[chatId]) {
